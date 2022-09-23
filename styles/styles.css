@@ -6,8 +6,8 @@
 }
 
 :root {
-  --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-primary: #5c0264;
+  --color-secondary: #39FF14;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -21,9 +21,9 @@
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
-.light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+.light-mode {    
+  --color-primary: #AAAAAA;
+  --color-secondary: #D1FE49;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -104,7 +104,7 @@ section {
   background-color: var(--color-grey-4);
   width: 55px;
   height: 55px;
-  border-radius: 50%;
+  border-radius: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -317,10 +317,10 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 75%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+.about-stats .progress-bars .progress-bar .progress-con .progress .Cpp {
   width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+.about-stats .progress-bars .progress-bar .progress-con .progress .C {
   width: 87%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
@@ -959,6 +959,23 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+}
+.text-container{
+  display: inline-block;
+}
+.typewriter{
+  overflow: hidden;
+  border-right: .15em solid #39FF14;
+  white-space: nowrap;
+  animation: 
+  typing 5s steps(20, end) forwards;
+  font-size: 2.6rem;
+  color: #39FF14;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
 /*# sourceMappingURL=styles.css.map */
